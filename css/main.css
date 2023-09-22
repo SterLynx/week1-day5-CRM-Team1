@@ -1,0 +1,21 @@
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+    flex-grow: 1;
+    text-align: center;  /* center the text within each nav item */
+}
+
+.sign-button{
+
+}
+
+.try-button{
+    
+}
+
+.logo2x{
+    
+}

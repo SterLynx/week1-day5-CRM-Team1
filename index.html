@@ -3,10 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> SCM Team 1</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
-<body>
-    Hello World
+<body class="bg-white">
+    <!-- Container that starts the Bootstrap Grid -->
+    <div class="container">
+    <!-- Nav Bar  Navbar is already responsive due to Bootstrap's built-in classes. On smaller screens,
+        the links and buttons will collapse behind a hamburger icon. When the icon is clicked, the links
+        and buttons will display in a vertical dropdown.-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Icon on the far left -->
+            <a class="navbar-brand logo2x" href="#">
+                <img src="./img/assets/logo/Logo-1@2x.png" width="80" height="40" alt="Icon">
+            </a>
+        
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <!-- Nav links -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How it Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                </ul>
+            
+                <!-- Buttons on the far right -->
+                <div class="ms-auto">
+                    <button class="btn btn-outline-primary mr-2 sign-button" type="submit">Sign In</button>
+                    <button class="btn btn-primary try-button" type="submit">Try It Free</button>
+                </div>
+            </div>
+            
+
+            </div>
+        </nav>
+        <!-- 
+            
+        -->
+
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
