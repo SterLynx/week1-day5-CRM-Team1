@@ -1,0 +1,22 @@
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+    flex-grow: 1;
+    text-align: center;  /* center the text within each nav item */
+}
+
+.header2 {
+    display: flex;
+    justify-content: center; /* Horizontally center the child elements */
+    align-items: center;     /* Vertically center the child elements */
+}
+
+.header2 img {
+    max-width: 100%; /* Allows the image to expand but not beyond its container's size */
+    height: auto;    /* Maintains the aspect ratio */
+}
+
+
