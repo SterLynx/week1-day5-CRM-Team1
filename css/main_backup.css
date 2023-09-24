@@ -40,38 +40,10 @@ body {
 }
 
 
-.line {
+  .line {
     background-color: lightgrey;  /* Color of the line */
     height: 5px;  /* Thickness of the line */
     width: 50vw;  /* Make it span the full width of the grid area */
     margin: 0 auto; /* Horizontally center the line if it's not the full width of its container */
 }
 
-
-.row.text-center {
-    justify-content: center;  /* Horizontally center the columns in the row (Bootstrap 5) */
-
-}
-
-.custom-image-row {
-    width: 80vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.item-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.item-container img {
-    max-width: 100%;
-}
-
-.bordered-content {
-    border: 1px solid #ccc; /* Bootstrap's default border color */
-    display: inline-block; /* To make the border fit snugly */
-}
