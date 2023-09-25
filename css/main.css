@@ -125,3 +125,11 @@ body {
     text-align: center; /* Optional, to keep the text centered after reducing width */
     margin-bottom: 3vh;
 }
+
+.wide-btn {
+    width: 10vw;
+}
+
+.wide-btn2 {
+    width: 150px;
+}
