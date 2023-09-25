@@ -1,8 +1,8 @@
 body {
     margin-top: 0px;
-    margin-right: 3vw;
+    margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: 03vw;
+    margin-left: 0px;
 }
 
 .nav-links-container {
@@ -77,59 +77,6 @@ body {
 }
 
 .mt-custom {
-    margin-top: 10vh;  
-    margin-bottom: 4vh;
+    margin-top: 10vh;  /* adjust this value based on your requirements */
 }
 
-.mg-custom2 {
-    margin-top: 10vh;  
-    margin-bottom: 4vh;
-}
-.mg-custom3 {
-   
-    margin-bottom: 4vh;
-}
-
-.mg-custom4 {
-   
-    margin-bottom: 3vh;
-}
-
-.mg-custom5 {
-   
-    margin-bottom: 10vh;
-}
-.mg-custom6 {
-   
-    margin-bottom: 10vh;
-}
-
-.custom-button {
-    background-color: #007BFF;
-    color: white;
-    border: 2px solid white;
-    width: 30%
-}
-
-.bordered-section {
-    border: 2px solid #ccc; /* Adjust color if needed */
-    border-radius: 15px; /* Adjust this value for a more or less rounded effect */
-    padding: 10px;
-}
-
-.btn-bordered {
-    border: 2px solid black; /* Adjust the width (2px) if you want a thicker/thinner border */
-}
-.custom-width-p {
-    width: 20vw;
-    text-align: center; /* Optional, to keep the text centered after reducing width */
-    margin-bottom: 3vh;
-}
-
-.wide-btn {
-    width: 10vw;
-}
-
-.wide-btn2 {
-    width: 150px;
-}

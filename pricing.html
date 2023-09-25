@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/price.css">
+    <title> Pricing</title>
+
+    
+<body class="bg-white">
+    <!-- Container that starts the Bootstrap Grid -->
+    <div class="container-fluid">
+        <!-- Nav Bar  Navbar is already responsive due to Bootstrap's built-in classes. On smaller screens,
+        the links and buttons will collapse behind a hamburger icon. When the icon is clicked, the links
+        and buttons will display in a vertical dropdown.-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <!-- Icon on the far left -->
+            <a class="navbar-brand logo2x">
+                <img src="./img/assets/logo/Logo.png" alt="Icon">
+            </a>
+        
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Nav links container -->
+                <div class="flex-grow-1 d-flex justify-content-between nav-links-container">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html#featureSpot">Features</a>
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                    <a class="nav-link" href="how_it_works.html">How it Works</a>
+                    <a class="nav-link" href="support.html">Support</a>
+                </div>
+
+            </div>
+        </nav>
+        <div class="pricing-center">
+            <h1>Double Tap CRM Pricing</h1>
+            <p>Choose a plan that best suits your needs. All plans come with 24/7 support.</p>
+        
+            <div class="pricing-container">
+                
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <h2>Basic</h2>
+                    <p class="price">$9.99/mo</p>
+                    <ul>
+                        <li>Up to 1,000 Contacts</li>
+                        <li>Email Support</li>
+                        <li>Basic Reporting</li>
+                    </ul>
+                    <a href="#" class="purchase-btn">Get Started</a>
+                </div>
+        
+                <!-- Pro Plan -->
+                <div class="pricing-card">
+                    <h2>Pro</h2>
+                    <p class="price">$29.99/mo</p>
+                    <ul>
+                        <li>Up to 10,000 Contacts</li>
+                        <li>Priority Email Support</li>
+                        <li>Advanced Reporting</li>
+                        <li>Custom Dashboards</li>
+                    </ul>
+                    <a href="#" class="purchase-btn">Get Started</a>
+                </div>
+        
+                <!-- Premium Plan -->
+                <div class="pricing-card">
+                    <h2>Premium</h2>
+                    <p class="price">$99.99/mo</p>
+                    <ul>
+                        <li>Unlimited Contacts</li>
+                        <li>24/7 Phone Support</li>
+                        <li>Advanced Reporting with Insights</li>
+                        <li>Custom Integrations</li>
+                    </ul>
+                    <a href="#" class="purchase-btn">Get Started</a>
+                </div>
+        
+            </div>
+        
+            <footer>
+                <p>&copy; 2023 Double Tap Inc. | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+            </footer>
+        </div>
+    </div>
+</body>    

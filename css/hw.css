@@ -1,0 +1,32 @@
+body {
+    margin-top: 0px;
+    margin-right: 3vw;
+    margin-bottom: 0px;
+    margin-left: 03vw;
+}
+
+.nav-links-container {
+    flex-grow: 1; /* Allows the container to take up available space */
+    display: flex;
+    justify-content: space-around; /* Fixed 'around' to 'space-around' */
+}
+
+/* ... rest remains the same ... */
+
+
+.nav-links-container .nav-link:first-child {
+    margin-left: 5vh;
+}
+
+.nav-links-container .nav-link:last-child {
+    margin-right: 5vh;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif; /* Added this line */
+    font-size: 16px; /* And this line */
+}
+
+.navbar-collapse {
+    flex-wrap: nowrap;  /* Prevent wrapping to the next line */
+}
