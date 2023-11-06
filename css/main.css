@@ -166,3 +166,20 @@ body {
     overflow: hidden; /* Hide overflowed content */
     text-overflow: ellipsis; /* Add ... for overflowed content */
 }
+
+.focus2 {
+    color: gray;
+}
+
+.focus-header {
+    font-size: 20pt;
+    margin-top: 100px;
+    
+    
+}
+
+.focus3 {
+    color: gray;
+    font-size: 12pt;
+    margin-top: 15px;
+}
